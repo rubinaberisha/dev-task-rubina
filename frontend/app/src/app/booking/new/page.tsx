@@ -10,7 +10,8 @@ interface BookingFormData {
   start_time: string;
   end_time: string;
   date: string;
-}
+} 
+
 
 const NewBookingPage = () => {
   const router = useRouter();
